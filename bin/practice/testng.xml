@@ -1,0 +1,16 @@
+<suite name="TestNG Roicians">
+<test name ="Regression" allow-return-values="true">
+<classes>
+<class name="practice.Alerts"/>
+<class name="practice.Testnew"/>
+</classes>
+</test>
+<test name= "smoke" allow-return-values="true">
+<classes>
+<class name= "practice.TestSelenium"/>
+</classes>
+</test>
+
+
+</suite>
+

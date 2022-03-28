@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-26T17:22:38 EDT" name="Default suite" finished-at="2022-03-26T17:22:58 EDT" duration-ms="20033">
+    <groups>
+    </groups>
+    <test started-at="2022-03-26T17:22:38 EDT" name="Default test" finished-at="2022-03-26T17:22:58 EDT" duration-ms="20033">
+      <class name="Amazon.AmazonNavigation">
+        <test-method is-config="true" signature="driversetup()[pri:0, instance:Amazon.AmazonNavigation@4cc451f2]" started-at="2022-03-26T17:22:38 EDT" name="driversetup" finished-at="2022-03-26T17:22:38 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method is-config="true" signature="before()[pri:0, instance:Amazon.AmazonNavigation@4cc451f2]" started-at="2022-03-26T17:22:38 EDT" name="before" finished-at="2022-03-26T17:22:41 EDT" duration-ms="2537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="Display(java.lang.String)[pri:0, instance:Amazon.AmazonNavigation@4cc451f2]" started-at="2022-03-26T17:22:41 EDT" name="Display" data-provider="getdata" finished-at="2022-03-26T17:22:54 EDT" duration-ms="13302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amazon.ca]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Display -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:Amazon.AmazonNavigation@4cc451f2]" started-at="2022-03-26T17:22:54 EDT" name="aftermethod" finished-at="2022-03-26T17:22:58 EDT" duration-ms="4164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- Amazon.AmazonNavigation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
